@@ -1,6 +1,6 @@
 @import '../../../shared/scss/_selected_theme_variables.scss';
 :host {
-  /deep/ .banner {
+  ::ng-deep .banner {
     .bannerStyle {
       img {
         height: 350px;

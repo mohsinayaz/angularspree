@@ -48,12 +48,12 @@
   padding-bottom: 0px;
 }
 
-:host /deep/ .page-scroll-header .cust-menu-btn {
+:host ::ng-deep .page-scroll-header .cust-menu-btn {
   border-radius: 0px;
   margin-right: 10px;
 }
 
-:host /deep/ .dropdown-menu {
+:host ::ng-deep .dropdown-menu {
   // top: 3.1em !important
 }
 
@@ -114,7 +114,7 @@
     padding-top: 0;
     padding-right: 0;
   }
-  :host /deep/ .page-scroll-header .cust-menu-btn {
+  :host ::ng-deep .page-scroll-header .cust-menu-btn {
     display: none;
   }
   .navbar .btn {
@@ -133,7 +133,7 @@
     padding-top: 0;
     padding-right: 0;
   }
-  :host /deep/ .page-scroll-header .cust-menu-btn {
+  :host ::ng-deep .page-scroll-header .cust-menu-btn {
     display: none;
   }
   .search {

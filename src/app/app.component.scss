@@ -7,13 +7,13 @@
   }
 }
 
-.issearchopen :host /deep/ .main-body {
+.issearchopen :host ::ng-deep .main-body {
   @media screen and(min-width: 320px) and(max-width: 768px) {
     margin-top: 48px;
   }
 }
 
-:host /deep/.ngx-input-star-rating__btn {
+:host ::ng-deep.ngx-input-star-rating__btn {
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -22,13 +22,13 @@
   height: 8px;
 }
 
-:host /deep/.ngx-input-star-rating__btn svg {
+:host ::ng-deep.ngx-input-star-rating__btn svg {
   position: absolute;
   top: -12px;
   left: 5px;
 }
 
-:host /deep/.ngx-input-star-rating__btn {
+:host ::ng-deep.ngx-input-star-rating__btn {
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -37,25 +37,25 @@
   height: 8px;
 }
 
-:host /deep/.ngx-input-star-rating__btn svg {
+:host ::ng-deep.ngx-input-star-rating__btn svg {
   position: absolute;
   top: -12px;
   left: 5px;
 }
 
-:host /deep/ngx-input-star-rating {
+:host ::ng-deepngx-input-star-rating {
   display: inline-block;
   --color-star-default: #ddd;
   --color-star-highlight: #fe9700;
 }
 
-:host /deep/ngx-input-star-rating {
+:host ::ng-deepngx-input-star-rating {
   display: inline-block;
   --color-star-default: #ddd;
   --color-star-highlight: #fe9700;
 }
 
-:host /deep/.themebtnprimary {
+:host ::ng-deep.themebtnprimary {
   background: $theme-action-color - 60;
   &:focus {
     @include gradient-y(
@@ -85,7 +85,7 @@
   text-transform: capitalize;
 }
 
-:host /deep/.themebtnprimarybasic {
+:host ::ng-deep.themebtnprimarybasic {
   &:focus {
     @include gradient-y(
       $start-color: $theme-action-color,
@@ -114,7 +114,7 @@
   );
 }
 
-:host /deep/.themebtnprimarysade {
+:host ::ng-deep.themebtnprimarysade {
   @include gradient-y(
     $start-color: $theme-action-color,
     $end-color: $theme-action-color - 60,
@@ -123,7 +123,7 @@
   );
 }
 
-:host /deep/.themebtndisable {
+:host ::ng-deep.themebtndisable {
   @include gradient-y(
     $start-color: $gray-200,
     $end-color: $gray-600,
@@ -149,14 +149,14 @@
   background-image: auto !important;
 }
 
-:host /deep/ .page-item.active .page-link {
+:host ::ng-deep .page-item.active .page-link {
   z-index: 1;
   color: $white;
   background-color: $theme-action-color - 80;
   border-color: $theme-action-color - 80;
 }
 
-:host /deep/ .page-link {
+:host ::ng-deep .page-link {
   color: $gray-900;
   &:hover {
     background-color: $theme-action-color - 100;
